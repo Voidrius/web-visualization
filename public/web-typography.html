@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Web Typography</title>
+    <link type="text/css" rel="stylesheet" href="./assets/typo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <style> 
+        body {
+            font-family: 'Roboto', sans-serif;  
+            margin: 0;
+            height: 100%;
+            background: url('./assets/bg_image.jpg') no-repeat center center fixed; 
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .paragraph-indent p {
+            text-indent: 1em;
+            margin-bottom: 0;
+        }
+        .paragraph-indent p:first-of-type {
+            text-indent: 0;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark pt-3 pb-3">
+    <div class="container-xxl">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand">
+        <span class="text-light fw-bold">
+          Web Visualization return page
+        </span>
+      </a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">CSS Libraries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./web-typography.html">Web Typography</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./forms.html">Forms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./css3-advanced.html">CSS3 Advanced</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./css-pre-processors.html">CSS Pre-Processors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./css-animations.html">CSS Animations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./svg-illustrations.html">SVG Illustrations</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+
+       
+
+    <section class="container my-5">
+        <div class="display-5 fw-bold text-light text-center mb-5">Web Typography</div>
+        <section class="row justify-content-evenly my-5">
+            <content class="col-6">
+              <div class="paragraph-indent p-5 bg-dark text-light rounded my-2">
+                <h4 class="text-center">Indents and Typefaces</h4>
+                <p class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatum dolore sed, perspiciatis illum a consectetur obcaecati nemo, provident reprehenderit, totam expedita minus? Ab, officiis voluptatem. Quae, explicabo aut? Corporis, numquam.</p>
+                <p class="fst-italic">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, rerum porro. Vel, vero sit delectus harum dicta numquam illum repellendus sequi optio nesciunt et ipsum iste voluptas tenetur, perspiciatis iusto!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, perspiciatis rerum eaque distinctio placeat, cumque laudantium aliquid nobis velit eveniet optio illum ipsa praesentium repellat numquam officia. Soluta, accusantium non?</p>
+            </div>  
+            </content> 
+            <content class="col-6">
+              <div class="p-5 bg-dark text-light rounded my-2">
+                <h4 class="text-center">Justify and Alignments</h4>
+                <p style="text-align: justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum porro molestias quibusdam tempora? Eligendi atque dolor nesciunt ab vitae harum ullam voluptas, rem architecto odio obcaecati quae, delectus fugit quia?</p>
+                <p class="text-end">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum, aspernatur voluptate? Itaque porro praesentium dolores eaque nesciunt explicabo quo illum optio saepe neque, ut amet laboriosam soluta vero accusamus, quos minus. Eligendi possimus doloremque omnis soluta ratione incidunt iusto recusandae tempora voluptate numquam. Repellendus quibusdam facere vero quam.</p>
+                <p class="text-start">Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, deserunt praesentium nobis voluptatibus ex voluptatem aperiam, excepturi maiores delectus laudantium aliquid ipsam quam ducimus cumque alias commodi in, doloribus quis?</p>
+            </div>
+            </content>
+          </section>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  </body>
+</html>

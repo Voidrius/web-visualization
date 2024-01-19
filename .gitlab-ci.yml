@@ -1,0 +1,14 @@
+pages:
+  stage: deploy
+  script:
+    #- gitlab-runner register
+      #--url https://gitlab.labranet.jamk.fi
+      #--token glrt-y--V1tzeTo8swJC3vnYb
+    - mkdir .public
+    - cp -r * .public
+    - mv .public public
+  artifacts:
+    paths:
+    - public
+  tags:
+    - general

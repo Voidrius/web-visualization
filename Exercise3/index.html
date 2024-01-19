@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+    <meta charset='UTF-8'/>
+    <title>Responsive Design</title>
+    <link rel='stylesheet' href='style.css'/>
+    <meta name='viewport'
+          content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+  </head>
+  <body>
+    <main class='page'>
+      <menu class='section menu'></menu>
+      <header class='section header'>
+        <content class='photo'>
+          <picture>
+            <source media='(min-width: 401px)'
+                    srcset='images/photo-big.jpg'/>
+            <source media='(max-width: 400px)'
+                    srcset='images/photo-tall.jpg'/>
+            <img src='images/photo-small.jpg'/>
+          </picture>
+        </content>
+      </header>
+      
+      <section class='section content'>
+        <section class='illustration'>
+          <img src='illustration-small.png'
+               srcset='images/illustration-small.png 1x,
+                       images/illustration-big.png 2x'
+               style='max-width: 500px'/>
+        </section>
+      </section>
+      <section class='section sign-up'>
+        <img src='images/sign-up.svg'/>
+      </section>
+      <section class='section feature-1'>
+        <img src='images/feature.svg'/>
+      </section>
+      <section class='section feature-2'>
+        <img src='images/feature.svg'/>
+      </section>
+      <section class='section feature-3'>
+        <img src='images/feature.svg'/>
+      </section>
+    </main>
+  </body>
+</html>
+  

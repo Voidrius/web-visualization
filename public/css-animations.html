@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS Animations</title>
+    <link type="text/css" rel="stylesheet" href="./assets/animations.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <style> 
+        body {
+            font-family: 'Roboto', sans-serif;  
+            margin: 0;
+            height: 100%;
+            background-color: #1b1c26;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+        .paragraph-indent p {
+            text-indent: 1em;
+            margin-bottom: 0;
+        }
+        .paragraph-indent p:first-of-type {
+            text-indent: 0;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark pt-3 pb-3">
+    <div class="container-xxl">
+      <!-- navbar brand / title -->
+      <a class="navbar-brand">
+        <span class="text-light fw-bold">
+          Web Visualization return page
+        </span>
+      </a>
+      <!-- toggle button for mobile nav -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- navbar links -->
+      <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">CSS Libraries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./web-typography.html">Web Typography</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./forms.html">Forms</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./css3-advanced.html">CSS3 Advanced</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./css-pre-processors.html">CSS Pre-Processors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="./css-animations.html">CSS Animations</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./svg-illustrations.html">SVG Illustrations</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+    
+
+       
+
+    <section class="container my-5">
+        <section class="row justify-content-evenly my-5">
+            <content class="col-6">
+                <div class="circle-container">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 376 376">
+                        <defs>
+                            <style>
+                                .a { fill: #aa3030; transition: fill 0.3s ease, transform 0.3s ease; }
+                                .b { fill: #661414; transition: fill 0.3s ease; }
+                                .c { fill: #bc3131; transition: fill 0.3s ease; }
+                                .d { fill: #ffcfcf; transition: fill 0.3s ease; }
+                                
+                                svg:hover .a { fill: #993939; } /* Darken the color on hover */
+                                svg:hover .b { fill: #460d0d; } /* Darken the color on hover */
+                                svg:hover .c { fill: #9e2929; } /* Darken the color on hover */
+                                svg:hover .d { fill: rgba(170, 170, 170, 0.479); } /* Darken the color on hover */
+                          
+                                svg:active .a { fill: #661414; } /* Darken even more when active */
+                                svg:active .b { fill: #490e0e; } /* Darken even more when active */
+                                svg:active .c { fill: #802121; } /* Darken even more when active */
+                                svg:active .d { fill: #7e7e7e00; } /* Darken even more when active */
+                              </style>
+                            </defs>
+                        <title>button</title>
+                        <circle class="a" cx="188" cy="188" r="188"/>
+                        <circle class="b" cx="188" cy="188" r="163"/>
+                        <circle class="c" cx="188" cy="188" r="150"/>
+                        <ellipse class="d" cx="888.23" cy="455.5" rx="16.86" ry="42.18" transform="translate(-683.63 373.13) rotate(-42.23)"/>
+                    </svg>
+                </div>
+            </content>
+        </section>
+            <section class="row justify-content-evenly my-5">
+            <content class="row col-8">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 566.37 548.76">
+                    <defs>
+                        <style>
+                            .e{fill:#f4e16e;}
+                            .f{fill:#fff;}
+                            .g{fill:#4a82dd;}
+                            .h{fill:#db4b4b;}
+                        </style>
+                    </defs>
+                    <title>Animation exercise, second part</title>
+                    <polygon class="e" points="86.06 169.4 1.02 167.88 53.96 101.31 29.13 19.97 108.79 49.74 178.48 0.99 174.79 85.96 242.69 137.17 160.73 159.91 133.01 240.31 86.06 169.4"/>
+                    <rect class="g" x="379.87" y="99.26" width="186" height="186"/>
+                    <circle class="h" cx="200.37" cy="437.76" r="110.5"/>
+                </svg>
+            </content>
+        </section>
+      

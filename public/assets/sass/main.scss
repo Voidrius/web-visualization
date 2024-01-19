@@ -1,0 +1,55 @@
+@import 'typography';
+@import 'colors';
+@import 'mixins';
+@import 'extends';
+
+header {
+    background-color: $primary-color;
+    color: white;
+    padding: 10px;
+    nav {
+        ul {
+            list-style: none;
+            li {
+                display: inline;
+                margin-right: 20px;
+                a {
+                    color: white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+main {
+    article {
+        @include card-styling;
+        margin: 20px 0;
+    }
+    display: flex;
+    
+}
+
+@media only screen and (max-width: 770px) {
+     img {
+    width: 70%;
+     }
+}
+footer {
+    background-color: $accent-color;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    ul {
+        list-style: none;
+        li {
+            display: inline;
+            margin-right: 20px;
+            a {
+                color: white;
+                text-decoration: none;
+            }
+        }
+    }
+}
