@@ -7,7 +7,7 @@ The hosted page displays each exercise in its own page, and the source code can 
 The assignment was to build a freeform page while getting familiar with a CSS library of your choice. I opted to go for Bootstrap, and made a simple bookmark page.
 
 ### [Web Typography](https://gitlab.labranet.jamk.fi/AA3739/web-visualization/-/blob/master/public/web-typography.html)
-We told to download a custom font, and play around with different typography settings.
+We were told to download a custom font, and play around with different typography settings.
 
 ### [Forms](https://gitlab.labranet.jamk.fi/AA3739/web-visualization/-/blob/master/public/forms.html)
 The point of the assignment was to highlight the difference in effort required when creating forms with regular CSS compared to a library.
